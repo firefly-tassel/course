@@ -1,0 +1,26 @@
+[
+    {
+        "job": "教授（华山特聘） IEEE/IET高级会员，中国电子学会、计算机学会高级会员",
+        "telephone": "029-88204298 13572233172",
+        "mail": "syyang@xidian.edu.cn",
+        "orientation": "智能目标信息感知和机器学习",
+        "address": "陕西省西安市太白南路2号西安电子科技大学（北校区）主楼II-410",
+        "home": "https://web.xidian.edu.cn/syyang/index.html"
+    },
+    {
+        "job": " 教授 博/硕导",
+        "telephone": "029-88204298",
+        "mail": "wangmin@xidian.edu.cn",
+        "orientation": "智能雷达信号与影像处理",
+        "address": "陕西省西安市太白南路2号西安电子科技大学雷达信号处理国家重点实验室实验楼1720",
+        "home": "https://web.xidian.edu.cn/wangmin/index.html"
+    },
+    {
+        "job": "副教授（华山菁英） 硕导",
+        "telephone": "029-88204298 18392950225",
+        "mail": "zxfeng@xidian.edu.cn",
+        "orientation": "智能雷达信号与影像处理、机器学习与模式分类",
+        "address": "陕西省西安市太白南路2号西安电子科技大学（北校区）主楼II-419",
+        "home": "https://web.xidian.edu.cn/zxfeng/index.html"
+    }
+]

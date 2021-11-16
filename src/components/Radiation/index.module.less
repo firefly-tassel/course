@@ -1,0 +1,96 @@
+.radiation::before {
+    background: url('../../assets/images/ai3.jpg');
+    background-size: cover;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 116rem;
+    height: 64.5rem;
+    z-index: -1;
+    -webkit-filter: blur(1rem);
+    filter: blur(1rem);
+}
+.radiation {
+    width: 116rem;
+    height: 64.5rem;
+    display: flex;
+    position: relative;
+    .left {
+        margin-top: 25rem;
+        margin-left: 10rem;
+        height: 5rem;
+        color: #1E90FF;
+        border-radius: 50%;
+    }
+    .noleft {
+        margin-top: 25rem;
+        margin-left: 10rem;
+        height: 5rem;
+        color: gray;
+        border-radius: 50%;
+        cursor: not-allowed;
+    }
+    .left:active {
+        color: aqua;
+    }
+    .content {
+        width: 80rem;
+        height: 50rem;
+        border: 0.2rem solid #1E90FF;
+        background: #fff;
+        border-radius: 1rem;
+        margin: 5rem 2rem;
+        .content1, .content2, .content3, .content4,.content5, .content6, .content7, .content8, .content9 {
+            margin-top: 2rem;
+            margin-left: 4rem;
+            .img {
+                width: 70.2rem;
+                height: 37.2rem;
+                border: 0.1rem dotted #000;
+                border-radius: 0.5rem;
+                .ant_img {
+                    width: 70rem;
+                    height: 37rem;
+                }
+            }
+            .text {
+                font-size: larger;
+                margin-right: 5rem;
+                margin-top: 1rem;
+                text-indent: 2em;
+            }
+        }
+        .content1, .content2, .content3, .content5, .content6 {
+            .img {
+                height: 45.2rem;
+                .ant_img {
+                    height: 45rem;
+                }
+            }
+        }
+    }
+    .right {
+        margin-top: 25rem;
+        height: 5rem;
+        color: #1E90FF;
+        border-radius: 50%;
+    }
+    .right:active {
+        color: aqua;
+    }
+    .noright {
+        margin-top: 25rem;
+        height: 5rem;
+        color: gray;
+        border-radius: 50%;
+        cursor: not-allowed;
+    }
+    .num {
+        position: absolute;
+        top: 88%;
+        left: 50%;
+        font-size: larger;
+        color: #1E90FF;
+    }
+}
